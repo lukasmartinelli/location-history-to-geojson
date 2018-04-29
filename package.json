@@ -1,0 +1,27 @@
+{
+  "name": "location-history-to-geojson",
+  "version": "1.0.0",
+  "description": "Turn your Google location history into a GeoJSON feature collection",
+  "main": "index.js",
+  "bin": {
+    "location-history-to-geojson": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasmartinelli/location-history-to-geojson.git"
+  },
+  "author": "Lukas Martinelli",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/lukasmartinelli/location-history-to-geojson/issues"
+  },
+  "homepage": "https://github.com/lukasmartinelli/location-history-to-geojson#readme",
+  "dependencies": {
+    "@turf/distance": "^6.0.1",
+    "commander": "^2.15.1",
+    "lodash": "^4.17.10"
+  }
+}
